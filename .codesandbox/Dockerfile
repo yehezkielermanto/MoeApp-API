@@ -1,5 +1,5 @@
 # Use the official Python image as the base image
-FROM python:3.11.6-alpine3.17
+FROM python:3.11
 # Install the application dependencies
 # RUN npm install
 # RUN pip install -r requirements.txt
