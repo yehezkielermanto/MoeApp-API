@@ -1,11 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
 from manage import *
 
 # Create your views here.
+@api_view(['GET'])
 def index(request):
-    return render(request, 'editor/code.html')
+    return JsonResponse({'response': 'This is API'})
 
+@api_view(['POST'])
 def predict(request):
     if request.method == 'POST':
         code = request.POST.get('code')

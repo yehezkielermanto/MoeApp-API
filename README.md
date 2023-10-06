@@ -1,16 +1,3 @@
-# MOE (Smart Code Editor) 🧑‍💻
+# MoeApp API 🧑‍💻
 
-Editor with machine learning which classifies programming language, support 5 programming language,
-
-- JavaScript
-- Python
-- Java
-- C++
-- C#
-
-## Features
-
-1. Classifying code of program 
-2. Run code of program
-3. Save code of program
-4. Import code of program from a file
+API for MoeApp (developed using Django)
