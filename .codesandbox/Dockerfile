@@ -1,6 +1,5 @@
 # Use the official Python image as the base image
-FROM nikolaik/python-nodejs:python3.9-nodejs20
-
+FROM python:3.11.6-alpine3.17
 # Install the application dependencies
 # RUN npm install
 # RUN pip install -r requirements.txt
